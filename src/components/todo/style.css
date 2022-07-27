@@ -1,0 +1,14 @@
+.todo-list{
+    width:250px;
+    /* height:150px; */
+    border:1px solid red;
+    padding:10px;
+    margin:5px;
+    box-sizing:border-box;
+    border-radius:10px;
+}
+
+.todo-list div h3{}
+.todo-list div p{}
+.todo-list div:last-child{width:100%;display:flex;justify-content: space-around;}
+.todo-list div button{}

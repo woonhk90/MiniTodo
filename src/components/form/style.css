@@ -1,0 +1,11 @@
+.form-div{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 50px;
+    box-sizing: border-box;
+    background-color:rgb(219, 219, 219);
+}
+.form-div div button{cursor:pointer;background-color:rgb(225, 79, 79);padding:5px 20px;border-radius: 5px;color:#fff;border:1px solid rgb(225, 79, 79);transition: all 0.3s;}
+.form-div div button:hover{background-color:#fff;color:rgb(225, 79, 79);border:1px solid #fff;transition: all 0.3s;}

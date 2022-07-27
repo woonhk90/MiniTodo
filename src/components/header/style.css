@@ -1,0 +1,10 @@
+.header-div{
+    width:100%;
+    background-color:transparent;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border:1px solid #eee;
+    box-sizing:border-box;
+    padding:0 15px;
+}
