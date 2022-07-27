@@ -6,9 +6,18 @@
     margin:5px;
     box-sizing:border-box;
     border-radius:10px;
+    font: 20px/1 'Arial','sans-serif';
 }
 
 .todo-list div h3{}
 .todo-list div p{}
 .todo-list div:last-child{width:100%;display:flex;justify-content: space-around;}
-.todo-list div button{}
+.todo-list div:last-child button{
+    background-color:transparent;
+    border:2px solid purple;
+    font: 20px/1 'Arial','sans-serif';
+    padding:10px 20px;
+    border-radius:10px;
+    cursor:pointer;
+}
+.todo-list div:last-child button:hover{transition:all 0.2s;background-color:purple;color:white;}
